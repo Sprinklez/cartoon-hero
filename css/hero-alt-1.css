@@ -1,48 +1,78 @@
 html, body{
-font-family: Arial;
-margin: 0;
-text-align: center;
-font-size: 20px;
-
+	font-family: Verdana;
+	margin: 0;
+	text-align:center;
+	font-size: 20px;
+	background-color: #d7aaff;
 }
 
 header{
-	background-color: #f2e6ff
-	background-image: url(../img/header-image.jpg);
-	background-repeat: repeat;
-	padding: 40px
+	background-color: #660066;
+background-image: url('../img/header-image.jpg');
+background-repeat: repeat;
+	padding: 40px;
 	text-align: center;
-}
 
+
+}
 h1{
-	font-size: 80px;
-	color: white;
-	text-shadow: 0 4px 20px black;
+	font-size: 90px;
+	color: 660033;
+	text-shadow: 0 4px 20px white;
 	margin: 0;
 	text-transform: uppercase;
-}
 
+
+}
 header img{
-	border-radius: 174px
+	border-radius: 174px;
 	width: 300px;
-	border: 24px solid #f2e6ff;
+	border: 24px solid #99ccff;
+	box-shadow: 0 10px 20px white;
 }
 
 .content{
-	background-color: #f2e6ff
 	max-width: 900px;
+	margin: 0 auto;
 	padding: 0 20px;
+	background-color: #661768;
+	color: #faeafa;
+	box-shadow: 0 10px 20px black;
+
+
+
 }
 
+h2{
+	font-size: 40px;
+	color: black;
+	padding: 20px 20px;
+	text-shadow:0 4px 20px white;
+}
+
+p{
+	margin-top: 0;
+	color: #faeafa;
+	text-align: center;
+}
+
+ol{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+	text-align: center;
+}
 
 img.big-image{
 	max-width: 100%;
+	box-shadow: 0 10px 20px white;
 }
 
 p.caption{
 	font-size: 16px;
 	color: lightgrey;
 	font-style: italic;
+	text-align: left;
 
 }
 
@@ -50,20 +80,25 @@ ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-
 }
 
 a{
-	color: purple;
+	color: #f9ecf2;
 	text-decoration: none;
 
+}
+
+a:hover{
+	background-color: #f5d5f6;
+	color: black
 }
 
 footer{
 
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #ebccff;
+	background-color: #661768;
+	box-shadow: 0 10px 20px black;
 }
 
 footer ul{
@@ -74,7 +109,9 @@ footer ul{
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
+	color: black;
 }
+
 /*<header>
 	<img src="img/profile.jpg">
 	<h1>Rapunzel</h1>

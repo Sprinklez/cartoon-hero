@@ -1,4 +1,4 @@
-html, body{
+html,body{
 	font-family: Arial;
 	margin: 0px
 
@@ -49,13 +49,12 @@ ul{
 
 a{
 	color: purple;
-	background-color: #f2e6ff
 	text-decoration: none;
 
 }
 
-a.hover{
-	background-color: #000000
+a:hover{ 
+	background-color: purple;
 }
 
 footer{
