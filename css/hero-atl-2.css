@@ -54,8 +54,8 @@ a{
 
 }
 
-a:hover{
-	background-color: #f2e6ff
+a.hover{
+	background-color: black;
 }
 
 footer{
