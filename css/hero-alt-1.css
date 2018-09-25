@@ -1,0 +1,81 @@
+html, body{
+font-family: Arial;
+margin: 0;
+text-align: center;
+font-size: 20px;
+
+}
+
+header{
+	background-color: #f2e6ff
+	background-image: url(..img/pixel-image-100.jpg);
+	background-repeat: repeat;
+	padding: 40px
+	text-align: center;
+}
+
+h1{
+	font-size: 80px;
+	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+header img{
+	border-radius: 174px
+	width: 300px;
+	border: 24px solid #f2e6ff;
+}
+
+.content{
+	background-color: #f2e6ff
+	max-width: 900px;
+	padding: 0 20px;
+}
+
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+a{
+	color: purple;
+	text-decoration: none;
+
+}
+
+footer{
+
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #ebccff;
+}
+
+footer ul{
+	text-align: center;
+
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+/*<header>
+	<img src="img/profile.jpg">
+	<h1>Rapunzel</h1>
+</header>/*
