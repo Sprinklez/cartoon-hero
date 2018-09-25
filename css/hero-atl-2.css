@@ -1,4 +1,4 @@
-html,body{
+html, body{
 	font-family: Arial;
 	margin: 0px
 
@@ -55,7 +55,7 @@ a{
 }
 
 a.hover{
-	background-color: black;
+	background-color: #000000
 }
 
 footer{
